@@ -1,209 +1,193 @@
 <!DOCTYPE html>
-<html id="org.nwra" dir="ltr" lang="en-US">
+<html id="ordered-forms-sample" dir="ltr" lang="en-US">
 <head>
   <meta charset="utf-8" >
-  <!--[if IE]>
-    <meta http-equiv="imagetoolbar" content="no" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <![endif]-->
 
-  <title></title>
+  <title>ordered-forms</title>
   <meta name="description" content="">
   <meta name="author" content="Wellfire Interactive">
 
   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
-    
-  <!--<link rel="shortcut icon" href="/media/favicon.ico">
-  <link rel="apple-touch-icon" href="/media/apple-touch-icon.png">-->
   
   <link rel="stylesheet" type="text/css" href="css/ordered-forms.css">
-  <!--<link rel="stylesheet" media="handheld" href="/media/styles/handheld.base.css">-->
-      
-  <script>$html = document.getElementsByTagName("html")[0]; $html.className += " jsActive ";</script>
-  <!--[if IE]>
-    <link rel="stylesheet" href="/media/styles/screen.ie.css" type="text/css">
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-  <!--[if lte IE 8]><script>$html.className += "ie8 ";</script><![endif]-->
-  <!--[if lte IE 7]><script>$html.className += "ie7 ";</script><![endif]-->
-  <!--[if lte IE 6]><script>$html.className += "ie6 ";</script><![endif]-->
+  
 </head>
 <body>
-    <form class="entry-content" action="" method="post">
-        <p class="message">Here's a couple of errors listed: Error 1, Error 2, Error 3, Error 4</p>
-        <fieldset>
-          <legend>Fieldset Title</legend>
-          <ol>
-            <li>
-              <label for="name">Name:</label>
-              <input id="name" type="text" value="Value to submit" />
-              <span>Required</span>
-              <p>Instructional or Helper Text</p>
-              <div class="alert">
-    						<h6>Error Label:</h6>
-    						<p>Text value. Describe the error and why</p>
-    					</div>
-            </li>
-            <li>
-              <label for="name">Name:</label>
-              <textarea>Values entered to submit. Values entered to submit. Values entered to submit. Values entered to submit. Values entered to submit.</textarea>
-              <span>Required</span>
-              <p>Instructional or Helper Text</p>
-              <div class="alert">
-    						<h6>Error Label:</h6>
-    						<p>Text value. Describe the error and why</p>
-    					</div>
-            </li>
-            <li class="file">
-              <label for="name">Name:</label>
-              <input id="" type="file" value="Value to submit" />
-              <span>Required</span>
-              <p>Instructional or Helper Text</p>
-              <div class="alert">
-    						<h6>Error Label:</h6>
-    						<p>Text value. Describe the error and why</p>
-    					</div>
-            </li>
-            <li class="url">
-              <label for="name">Name:</label>
-              <input id="" type="url" value="Value to submit" />
-              <span>Required</span>
-              <p>Instructional or Helper Text</p>
-              <div class="alert">
-    						<h6>Error Label:</h6>
-    						<p>Text value. Describe the error and why</p>
-    					</div>
-            </li>
-            <li class="email">
-              <label for="name">Name:</label>
-              <input id="" type="email" value="Value to submit" />
-              <span>Required</span>
-              <p>Instructional or Helper Text</p>
-              <div class="alert">
-    						<h6>Error Label:</h6>
-    						<p>Text value. Describe the error and why</p>
-    					</div>
-            </li>
-            <li class="tel">
-              <label for="name">Name:</label>
-              <input id="" type="tel" value="Value to submit" />
-              <span>Required</span>
-              <p>Instructional or Helper Text</p>
-              <div class="alert">
-    						<h6>Error Label:</h6>
-    						<p>Text value. Describe the error and why</p>
-    					</div>
-            </li> 
-            <li class="number">
-              <label for="name">Name:</label>
-              <input id="" type="number" min="0" max="10" step="2" value="6" />
-              <span>Required</span>
-              <p>Instructional or Helper Text</p>
-              <div class="alert">
-    						<h6>Error Label:</h6>
-    						<p>Text value. Describe the error and why</p>
-    					</div>
-            </li>    
-            <li class="date">
-              <label for="name">Name:</label>
-              <input id="" type="date" />
-              <span>Required</span>
-              <p>Instructional or Helper Text</p>
-              <div class="alert">
-    						<h6>Error Label:</h6>
-    						<p>Text value. Describe the error and why</p>
-    					</div>
-            </li>    
-            <li class="date">
-              <label for="name">Name:</label>
-              <input id="" type="datetime" />
-              <span>Required</span>
-              <p>Instructional or Helper Text</p>
-              <div class="alert">
-    						<h6>Error Label:</h6>
-    						<p>Text value. Describe the error and why</p>
-    					</div>
-            </li>
-            <li class="search">
-              <label for="name">Query:</label>
-              <input id="" type="search" value="Value to submit" />
-              <p>Instructional or Helper Text</p>
-            </li>                        
-            <li class="bit">
-              <p>Instructional or Helper Text. Instructional or Helper Text. Instructional or Helper Text.</p>
-              <span>Required</span>
-              <label for="">Value 1: <input id="" type="checkbox" value="Value to submit" /></label>
-              <label for="">Value 2: <input id="" type="checkbox" value="Value to submit" /></label>
-              <div class="alert">
-    						<h6>Error Label:</h6>
-    						<p>Text value. Describe the error and why</p>
-    					</div>
-            </li>
-            <li class="bit">
-              <p>Instructional or Helper Text</p>
-              <span>Required</span>
-              <label for="">Value 1: <input id="" type="checkbox" value="Value to submit" /></label>
-              <label for="">Value 2: <input id="" type="checkbox" value="Value to submit" /></label>
-              <label for="">Value 3: <input id="" type="checkbox" value="Value to submit" /></label>
-              <label for="">Value 4: <input id="" type="checkbox" value="Value to submit" /></label>              
-              <div class="alert">
-    						<h6>Error Label:</h6>
-    						<p>Text value. Describe the error and why</p>
-    					</div>
-            </li>
-            <li class="bit">
-              <p>Instructional or Helper Text</p>
-              <span>Required</span>
-              <label for="">Value 1: <input id="" type="radio" value="Value to submit" /></label>
-              <label for="">Value 2: <input id="" type="radio" value="Value to submit" /></label>
-              <div class="alert">
-    						<h6>Error Label:</h6>
-    						<p>Text value. Describe the error and why</p>
-    					</div>
-            </li>
-            <li class="bit">
-              <p>Instructional or Helper Text</p>
-              <span>Required</span>
-              <label for="">Value 1: <input id="" type="radio" value="Value to submit" /></label>
-              <label for="">Value 2: <input id="" type="radio" value="Value to submit" /></label>
-              <label for="">Value 3: <input id="" type="radio" value="Value to submit" /></label>
-              <label for="">Value 4: <input id="" type="radio" value="Value to submit" /></label>              
-              <div class="alert">
-    						<h6>Error Label:</h6>
-    						<p>Text value. Describe the error and why</p>
-    					</div>
-            </li>            
-            <li class="bit">
-              <p>Instructional or Helper Text</p>
-              <span>Required</span>
-              <label for="">Value 1: <input id="" type="radio" value="Value to submit" /></label>
-              <label for="">Value 2: <input id="" type="radio" value="Value to submit" /></label>
-              <div class="alert">
-    						<h6>Error Label:</h6>
-    						<p>Text value. Describe the error and why</p>
-    					</div>
-            </li>
-            <li class="select">
-              <label for="">Value 1:</label>
-              <p>Instructional or Helper Text. Instructional or Helper Textsdf afkf . Instructional or Helper Text. Instructional or Helper Text. </p>
-              <span>Required</span>
-              <select>
-                <option value="">Value Name</option>
-                <option value="">Value Name</option>
-                <option value="">Value Name</option>
-                <option value="">Value Name</option>
-                <option value="">Value Name</option>                                                                
-              </select>
-              <div class="alert">
-    						<h6>Error Label:</h6>
-    						<p>Text value. Describe the error and why</p>
-    					</div>
-            </li>
-          </ol>
-        </fieldset>
-        <fieldset class="action">
-          <button class="action-box" type="submit"><span>Submit</span></button>
-        </fieldset>
-      </form>
+  <form class="orderedForm" action="" method="post">
+    <p class="message">General form error or validation message</p>
+    <fieldset>
+      <legend>Fieldset Title</legend>
+        <ol>
+          <li>
+          <label for="name">Name:</label>
+          <input id="name" type="text" value="Value to submit" />
+          <span>Required</span>
+          <p>Instructional or Helper Text</p>
+          <div class="alert">
+            <h6>Error Label:</h6>
+            <p>Text value. Describe the error and why</p>
+          </div>
+        </li>
+        <li>
+          <label for="name">Name:</label>
+          <textarea>Values entered to submit. Values entered to submit. Values entered to submit. Values entered to submit. Values entered to submit.</textarea>
+          <span>Required</span>
+          <p>Instructional or Helper Text</p>
+          <div class="alert">
+            <h6>Error Label:</h6>
+            <p>Text value. Describe the error and why</p>
+          </div>
+        </li>
+        <li class="file">
+          <label for="name">Name:</label>
+          <input id="" type="file" value="Value to submit" />
+          <span>Required</span>
+          <p>Instructional or Helper Text</p>
+          <div class="alert">
+            <h6>Error Label:</h6>
+            <p>Text value. Describe the error and why</p>
+          </div>
+        </li>
+          <li class="url">
+          <label for="name">Name:</label>
+          <input id="" type="url" value="Value to submit" />
+          <span>Required</span>
+          <p>Instructional or Helper Text</p>
+          <div class="alert">
+            <h6>Error Label:</h6>
+            <p>Text value. Describe the error and why</p>
+          </div>
+        </li>
+        <li class="email">
+          <label for="name">Name:</label>
+          <input id="" type="email" value="Value to submit" />
+          <span>Required</span>
+          <p>Instructional or Helper Text</p>
+          <div class="alert">
+            <h6>Error Label:</h6>
+            <p>Text value. Describe the error and why</p>
+          </div>
+        </li>
+        <li class="tel">
+          <label for="name">Name:</label>
+          <input id="" type="tel" value="Value to submit" />
+          <span>Required</span>
+          <p>Instructional or Helper Text</p>
+          <div class="alert">
+            <h6>Error Label:</h6>
+            <p>Text value. Describe the error and why</p>
+          </div>
+        </li> 
+        <li class="number">
+          <label for="name">Name:</label>
+          <input id="" type="number" min="0" max="10" step="2" value="6" />
+          <span>Required</span>
+          <p>Instructional or Helper Text</p>
+          <div class="alert">
+            <h6>Error Label:</h6>
+            <p>Text value. Describe the error and why</p>
+          </div>
+        </li>    
+        <li class="date">
+          <label for="name">Name:</label>
+          <input id="" type="date" />
+          <span>Required</span>
+          <p>Instructional or Helper Text</p>
+          <div class="alert">
+            <h6>Error Label:</h6>
+            <p>Text value. Describe the error and why</p>
+          </div>
+        </li>    
+        <li class="date">
+          <label for="name">Name:</label>
+          <input id="" type="datetime" />
+          <span>Required</span>
+          <p>Instructional or Helper Text</p>
+          <div class="alert">
+            <h6>Error Label:</h6>
+            <p>Text value. Describe the error and why</p>
+          </div>
+        </li>
+        <li class="search">
+          <label for="name">Query:</label>
+          <input id="" type="search" value="Value to submit" />
+          <p>Instructional or Helper Text</p>
+        </li>                        
+        <li class="bit">
+          <p>Instructional or Helper Text. Instructional or Helper Text. Instructional or Helper Text.</p>
+          <span>Required</span>
+          <label for="">Value 1: <input id="" type="checkbox" value="Value to submit" /></label>
+          <label for="">Value 2: <input id="" type="checkbox" value="Value to submit" /></label>
+          <div class="alert">
+            <h6>Error Label:</h6>
+            <p>Text value. Describe the error and why</p>
+          </div>
+        </li>
+        <li class="bit">
+          <p>Instructional or Helper Text</p>
+          <span>Required</span>
+          <label for="">Value 1: <input id="" type="checkbox" value="Value to submit" /></label>
+          <label for="">Value 2: <input id="" type="checkbox" value="Value to submit" /></label>
+          <label for="">Value 3: <input id="" type="checkbox" value="Value to submit" /></label>
+          <label for="">Value 4: <input id="" type="checkbox" value="Value to submit" /></label>              
+          <div class="alert">
+            <h6>Error Label:</h6>
+            <p>Text value. Describe the error and why</p>
+          </div>
+        </li>
+        <li class="bit">
+          <p>Instructional or Helper Text</p>
+          <span>Required</span>
+          <label for="">Value 1: <input id="" type="radio" value="Value to submit" /></label>
+          <label for="">Value 2: <input id="" type="radio" value="Value to submit" /></label>
+          <div class="alert">
+            <h6>Error Label:</h6>
+            <p>Text value. Describe the error and why</p>
+          </div>
+        </li>
+        <li class="bit">
+          <p>Instructional or Helper Text</p>
+          <span>Required</span>
+          <label for="">Value 1: <input id="" type="radio" value="Value to submit" /></label>
+          <label for="">Value 2: <input id="" type="radio" value="Value to submit" /></label>
+          <label for="">Value 3: <input id="" type="radio" value="Value to submit" /></label>
+          <label for="">Value 4: <input id="" type="radio" value="Value to submit" /></label>              
+          <div class="alert">
+            <h6>Error Label:</h6>
+            <p>Text value. Describe the error and why</p>
+          </div>
+        </li>            
+        <li class="bit">
+          <p>Instructional or Helper Text</p>
+          <span>Required</span>
+          <label for="">Value 1: <input id="" type="radio" value="Value to submit" /></label>
+          <label for="">Value 2: <input id="" type="radio" value="Value to submit" /></label>
+          <div class="alert">
+            <h6>Error Label:</h6>
+            <p>Text value. Describe the error and why</p>
+          </div>
+        </li>
+        <li class="select">
+          <label for="">Value 1:</label>
+          <p>Instructional or Helper Text. Instructional or Helper Textsdf afkf . Instructional or Helper Text. Instructional or Helper Text. </p>
+          <span>Required</span>
+          <select>
+            <option value="">Value Name</option>
+            <option value="">Value Name</option>
+            <option value="">Value Name</option>
+            <option value="">Value Name</option>
+            <option value="">Value Name</option>                                                                
+          </select>
+          <div class="alert">
+            <h6>Error Label:</h6>
+            <p>Text value. Describe the error and why</p>
+          </div>
+        </li>
+      </ol>
+    </fieldset>
+    <fieldset class="action">
+      <button class="action-box" type="submit"><span>Submit</span></button>
+    </fieldset>
+  </form>
 </body>
 </html>

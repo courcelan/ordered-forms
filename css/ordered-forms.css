@@ -27,47 +27,47 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 */
 
-form { color:#EBF7F8; margin:0; padding:0; }
+form { color:#000; margin:0; padding:0; }
 button { padding:0; }
 button span { display:block; }
-fieldset li p { font-size:12px; font-style:italic; margin:-15px 0 0; }
+fieldset li p { font-size:16px; font-style:italic; }
 form ol { list-style:none; margin:0; padding:0; }
-form li { position:relative; padding-top:1px; }
-form li span { color:#B0573D; font-size:10px; font-weight:700px; position:absolute; right:15px; text-transform:uppercase; top:24px; }
-input { border:0; color:#33455D; display:block; font-size:12px; height:24px; line-height:24px; padding:0 80px 0 15px; margin:0 0 15px; width:325px; position:relative; z-index:1; }
-input:focus { background:#33455D; color:#EBF7F8; outline:0; }
+form li { position:relative; padding-top:10px; }
+form li span { color:#B0573D; font-size:14px; }
+input { border:0; color:#666; display:block; font-size:16px; height:24px; line-height:24px; padding:0 80px 0 15px; margin:0 0 15px; width:325px; position:relative; z-index:1; }
+input:focus { background:#fffcdf; color:#000; outline:0; }
 input[type="radio"] { vertical-align: text-bottom; }
 input[type="checkbox"] { vertical-align: bottom; }
-label { color:#E3C491; font-size:12px; font-weight:700; text-transform:uppercase; }
+label { color:#000; font-size:16px; }
 label, input[type=button], input[type=submit], button { cursor: pointer; }
 legend { display:none; }
-textarea { display:block; font-size:12px; height:225px; line-height:24px; margin:0 0 15px; padding:0 80px 0 15px; width:325px; }
-textarea:focus { background:#33455D; border:0; color:#EBF7F8; outline:0; }
+textarea { display:block; font-size:16px; height:225px; line-height:24px; margin:0 0 15px; padding:0 20px 0 10px; width:325px; }
+textarea:focus { background:#fffcdf; border:0; color:#000; outline:0; }
 form.entry-content { background:rgba(51,69,93,.65); width:900px; }
 .entry-content fieldset { border-left:1px solid rgba(255,255,255,.5); margin-left:221px; padding:0 20px; width:430px; }
 .entry-content .action-box { margin:50px 15px 0; }
-.file input { color:#EBF7F8; margin-left:-15px; }
+.file input { color:#000;  }
 .date input,
 .number input { padding:0 15px; width:50px; }
 .date input { width:100px; }
 .date span, .number span,
 .file span, .select span,
-.bit span { color:#EBF7F8; }
+.bit span { color:#000; }
 .date span { right:250px; }
 .number span { right:300px; }
 .search input { -webkit-appearance:textfield;}
 .bit { margin:0 0 20px; }
 .bit label { display:block; margin:0 0 5px; }
 .bit label input { float:left; margin:-1px 10px 0 0; padding:0; width:auto; }
-.bit p { margin:0; padding:0 80px 0 0; font-size:14px; font-style:normal; }
+.bit p { margin:0; padding:0 80px 0 0; font-size:16px; font-style:normal; }
 .bit span,
 .select span { top:3px; }
 .select p { font-style:normal; margin:0; padding:0 80px 0 0; }
 
-form .alert { background:url(/media/styles/i/elm-glyphs.png) 0 0 no-repeat; height:74px; padding:0 20px 0 0; position:absolute; left:-235px; width:210px; top:-7px; }
-form .alert h6 { color:#B0573D; font-size:12px; text-transform:uppercase; margin:9px 0 0 28px; position:absolute; }
+form .alert { height:74px; padding:0 20px 0 0; position:absolute; left:335px; width:210px; top:-7px; }
+form .alert h6 { color:red; font-size:16px; margin:9px 0 0 28px; position:absolute; }
 form .alert h6::before { content:"*"; font-family:"Pictos"; font-size:14px; position:absolute; top:-5px; left:-13px; }
-form .alert p { color:#212121; font-size:12px; font-style:normal; margin:0; padding:26px 20px 5px 28px; }
+form .alert p { color:#212121; font-size:14px; font-style:normal; margin:0; padding:26px 20px 5px 28px; }
 
 .message { border:1px solid #EBF7F8; margin:0 0 20px; padding:20px 20px 20px 56px; position:relative; }
 .error { border:1px solid #B0573D; color:#B0573D; }
