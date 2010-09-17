@@ -25,6 +25,12 @@ Now that that's out of the way...
 
 h1. Overview
 
+So why ordered lists for forms? If you think back to all the forms you've filled out: census, doctors visit, drivers licenses, even those annoying bubble sheets that you had to use a number two pencil on for your standardized tests in grade school, the form you filled out was set in a certain order that the publisher believed was the best way for you to fill it out. The same thought is put into forms on the web. The developer builds the form in the order that they believe that it should be filled out.
+
+Normally, we all very linearly fill out a form. Yet, nothing necessarily stops us from bouncing around the form and filling it out as we see fit. Ultimately, we shouldn't look at an ordered list as a constraint on how we move through the form. We should only as a guide to the default way to do so. At most by filling out the form in a non-linear way, we'll get a look of consternation from the old schoolmarm.
+
+What we are defining here is a framework to what we've found to be a great way to set up forms on the web. The ordered form is a great scaffolding for mobile, large screen, accessibility, and print; translating to all media well. Over the past few years, we've come to the framework as a go-to solution for laying out the form and insuring it functions correctly in various browsers and media.  
+
 h1. Usage
 
 h1. Extension
